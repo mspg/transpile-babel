@@ -1,0 +1,36 @@
+{
+  "name": "@mspg/transpile-babel",
+  "version": "0.0.1",
+  "description": "es7 to es5 transform for mspg",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "t",
+    "format": "f -w"
+  },
+  "dependencies": {
+    "@magic/log": "github:magic/log",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-minify": "0.5.0",
+    "babel-preset-stage-0": "6.24.1"
+  },
+  "devDependencies": {
+    "@magic/test": "github:magic/test"
+  },
+  "author": "Wizards & Witches",
+  "license": "AGPL-3.0",
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "philipp tiefenbacher",
+      "github": "wizard23"
+    },
+    {
+      "name": "tom peak",
+      "github": "tompeak"
+    }
+  ]
+}
