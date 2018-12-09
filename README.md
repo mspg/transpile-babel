@@ -1,13 +1,12 @@
 #### @mspg/transpile-babel
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/mspg/transpile-babel.svg)](https://greenkeeper.io/)
+uses babel to transpile stage 0 ecmascript features into ecmascript 5
 
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]
 [![Windows Build Status][appveyor-image]][appveyor-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
-
-uses babel to transpile stage 0 ecmascript features into ecmascript 5
+[![Greenkeeper badge](https://badges.greenkeeper.io/mspg/transpile-babel.svg)](https://greenkeeper.io/)
 
 
 ##### Usage:
