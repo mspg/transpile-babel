@@ -1,7 +1,9 @@
 const babel = require('babel-core')
 
+const isProd = process.env.NODE_ENV === 'production'
+
 const defaultConfig = {
-  sourceMap: 'both',
+  sourceMap: isProd ? false : 'both',
   presets: [
     'minify',
     'env',
