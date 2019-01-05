@@ -25,9 +25,12 @@ if (isProd) {
 const defaultConfig = {
   sourceMap: isProd ? false : 'both',
   comments: !isProd,
+  minified: isProd,
+  configFile: false,
   presets,
   plugins,
 }
+
 
 const BABEL = (args = {}) => {
   try {
