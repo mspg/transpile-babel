@@ -14,13 +14,10 @@ const presets = [
       debug: !isProd,
     },
   ],
+  "minify",
 ]
 
-const plugins = ['@babel/plugin-transform-arrow-functions']
-if (isProd) {
-  plugins.push('minify-mangle-names')
-  plugins.push('minify-dead-code-elimination')
-}
+const plugins = []
 
 const defaultConfig = {
   sourceMap: isProd ? false : 'both',
@@ -34,6 +31,7 @@ const defaultConfig = {
 export const BABEL = (args = {}) => {
   try {
     const { buffer, name, config } = args
+
     if (!buffer) {
       throw new Error('BABEL expects args to include { buffer }')
     }
