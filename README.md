@@ -14,9 +14,9 @@ First set up a [mspg](https://github.com/mspg/core) project.
 
 then, in src/config.js
 ```javascript
-  const JS = require('@mspg/transpile-babel')
+  import JS from '@mspg/transpile-babel'
 
-  module.exports = {
+  export default {
     TRANSPILERS: {
       JS,
     },

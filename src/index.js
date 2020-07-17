@@ -1,4 +1,4 @@
-const babel = require('@babel/core')
+import babel from '@babel/core'
 
 const isProd = process.env.NODE_ENV === 'production'
 
@@ -31,8 +31,7 @@ const defaultConfig = {
   plugins,
 }
 
-
-const BABEL = (args = {}) => {
+export const BABEL = (args = {}) => {
   try {
     const { buffer, name, config } = args
     if (!buffer) {
@@ -55,4 +54,4 @@ const BABEL = (args = {}) => {
   }
 }
 
-module.exports = BABEL
+export default BABEL

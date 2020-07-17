@@ -1,6 +1,6 @@
-const { is, tryCatch } = require('@magic/test')
+import { is } from '@magic/test'
 
-const BABEL = require('../src/index.js')
+import BABEL from '../src/index.js'
 
 const config = {
   ENV: 'development',
@@ -11,7 +11,7 @@ const expect = r => r.includes('console.log("ohai");')
 
 // const invalidBuffer = 'console.log(nonexistent.deep.object)'
 
-module.exports = [
+export default [
   { fn: () => BABEL, expect: is.fn, info: 'BABEL is a function' },
   { fn: BABEL({ buffer, config, name: 'test' }), expect, info: 'BABEL can transpile' },
   {
