@@ -14,7 +14,7 @@ const presets = [
       debug: !isProd,
     },
   ],
-  "minify",
+  'minify',
 ]
 
 const plugins = []
