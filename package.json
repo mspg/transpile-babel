@@ -15,15 +15,15 @@
     "calls": "calls"
   },
   "dependencies": {
-    "@babel/core": "7.13.10",
-    "@babel/plugin-transform-arrow-functions": "7.13.0",
-    "@babel/preset-env": "7.13.10",
-    "@magic/log": "0.1.8",
+    "@babel/core": "7.17.8",
+    "@babel/plugin-transform-arrow-functions": "7.16.7",
+    "@babel/preset-env": "7.16.11",
+    "@magic/log": "0.1.13",
     "babel-preset-minify": "0.5.1"
   },
   "devDependencies": {
-    "@magic/format": "0.0.22",
-    "@magic/test": "0.1.65"
+    "@magic/format": "0.0.38",
+    "@magic/test": "0.2.7"
   },
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",
